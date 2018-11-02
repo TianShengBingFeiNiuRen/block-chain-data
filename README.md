@@ -16,3 +16,8 @@
 原创代码，用web3j接入以太坊全节点，通过合约地址监听transfer事件，获取交易记录。
 
 	注意：注意版本问题。不通版本event的构造参数列表是不一样的。
+	<dependency>
+            <groupId>org.web3j</groupId>
+            <artifactId>core</artifactId>
+            <version>3.4.0</version>
+        </dependency>
